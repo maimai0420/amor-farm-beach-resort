@@ -1,0 +1,152 @@
+<!doctype html> 
+<html> 
+<head> 
+<meta charset="UTF-8">
+<title>Amor Farm Beach Resort</title> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<style>
+    .header-bg {
+        background-image: url('https://pix8.agoda.net/hotelImages/544/544967/544967_14021412450018343009.jpg?ca=2&ce=1&s=1024x'); /* Replace with your image URL */
+    }
+</style>
+</head> 
+<body class="bg-gray-100">
+
+    <header class="bg-blue-800 text-white">
+        <nav class="container mx-auto flex justify-between items-center p-4">
+            <h1 class="text-2xl font-bold">Amor Farm Beach Resort</h1>
+            <ul class="flex space-x-4">
+                <li><a href="#accommodations" class="hover:text-gray-300">Accommodations</a></li>
+                <li><a href="#amenities" class="hover:text-gray-300">Amenities</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero bg-cover bg-center h-96" style="background-image: url('beach-hero.jpg');">
+        <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
+            <div class="text-center text-white">
+                <h2 class="text-4xl font-bold">Welcome to Amor Farm Beach Resort</h2>
+                <p class="mt-2">Your dream vacation awaits!</p>
+                <a href="#booking" class="mt-4 inline-block bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="accommodations" class="container mx-auto py-10">
+        <h2 class="text-3xl font-bold text-center mb-6">Our Accommodations</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="pic.webp" alt="Beachfront Villa" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">Beachfront Villa</h3>
+                    <p class="text-gray-600">Enjoy stunning ocean views from your private villa.</p>
+                    <p class="font-bold mt-2">$300/night</p>
+                    <button class="mt-4 bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600">Book Now</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="room.jpg" alt="Ocean View Room" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">Ocean View Room</h3>
+                    <p class="text-gray-600">Relax in a comfortable room with a beautiful view.</p>
+                    <p class="font-bold mt-2">$200/night</p>
+                    <button class="mt-4 bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600">Book Now</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="garden.jpeg" alt="Garden" class="w-full h-48 object-cover">
+              <div class="p-4">
+                <h3 class="text-xl font-semibold">Garden</h3>
+                 <p class="text-gray-600">Relax in our tranquil Garden room, surrounded by lush greenery and beautiful flowers.</p>
+                 <p class="font-bold mt-2">$230/night</p>
+                 <button class="mt-4 bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600">Book Now</button>
+         </div>
+        </div>
+    </section>
+    
+        <section id="amenities" class="container mx-auto py-10">
+                <h2 class="text-3xl font-bold text-center mb-6">Our Amenities</h2>
+                <p class="text-center mb-8">Enjoy a range of amenities designed to make your stay comfortable and enjoyable.</p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    
+                    <div class="bg-white rounded-lg shadow-lg p-4">
+                        <img src="beach.jpeg" alt="Beach View" class="w-full h-32 object-cover rounded-t-lg">
+                        <h3 class="text-xl font-semibold mt-2">Beach View</h3>
+                        <p class="text-gray-600">Enjoy stunning views of the beach from various locations around the resort, perfect for relaxation and photography.</p>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-lg p-4">
+                        <img src="dagat.png" alt="Beach Access" class="w-full h-32 object-cover rounded-t-lg">
+                        <h3 class="text-xl font-semibold mt-2">Beach Access</h3>
+                        <p class="text-gray-600">Enjoy direct access to the pristine beach, where you can soak up the sun and enjoy water activities.</p>
+                    </div>
+    
+                    <div class="bg-white rounded-lg shadow-lg p-4">
+                        <img src="restaurant.jpg" alt="On-Site Restaurant" class="w-full h-32 object-cover rounded-t-lg">
+                        <h3 class="text-xl font-semibold mt-2">On-Site Restaurant</h3>
+                        <p class="text-gray-600">Savor delicious meals at our on-site restaurant, featuring local and international cuisine.</p>
+                    </div>
+       
+         <section id="booking" class="container mx-auto py-10">
+                 <h2 class="text-3xl font-bold text-center mb-6">Book Your Stay</h2>
+                 <p class="text-center mb-4">Fill out the form below to reserve your accommodation.</p>
+                <form class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-lg">
+                        <div class="mb-4">
+                                <label for="name" class="block text-gray-700">Name</label>
+                                <input type="text" id="name" class="w-full border border-gray-300 p-2 rounded" required>
+                        </div>
+                        <div class="mb-4">
+                                <label for="email" class="block text-gray-700">Email</label>
+                                <input type="email" id="email" class="w-full border border-gray-300 p-2 rounded" required>
+                        </div>
+                         <div class="mb-4">
+                                <label for="checkin" class="block text-gray-700">Check-in Date</label>
+                                <input type="date" id="checkin" class="w-full border border-gray-300 p-2 rounded" required>
+                         </div>
+                         <div class="mb-4">
+                                <label for="checkout" class="block text-gray-700">Check-out Date</label>
+                                <input type="date" id="checkout" class="w-full border border-gray-300 p-2 rounded" required>
+                         </div>
+                            <button type="submit" class="bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600">Submit</button>
+            </form>
+        </section>
+
+            
+        <section id="contacts" class="container mx-auto py-10">
+            <h2 class="text-3xl font-bold text-center mb-6">Contact Us</h2>
+            <p class="text-center mb-4">Please contact us for further inquiries.</p>
+            <form class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-lg">
+               <div class="mb-4">
+                       <label for="email" class="block text-gray-700">Email</label>
+                       <input type="email" id="email" class="w-full border border-gray-300 p-2 rounded" required>
+               </div>
+                <div class="mb-4">
+                       <label for="contact number" class="block text-gray-700">Contact Number</label>
+                       <input type="contact number" id="number" class="w-full border border-gray-300 p-2 rounded" required>
+                </div>
+                
+                   <button type="submit" class="bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600">Submit</button>
+        </form>
+    </section>
+        
+    <section class="container mx-auto py-10">
+        <h2 class="text-2xl font-bold text-center">Our Location</h2>
+        <div class="mt-6">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.827960075907!2d123.57981687373469!3d12.91877648739174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a13d706873485d%3A0x1ad15639091ac14e!2sAmor%20Farm%20Beach%20Resort!5e0!3m2!1sen!2sph!4v1742124317271!5m2!1sen!2sph"
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </section>
+
+</body>
+</html>
